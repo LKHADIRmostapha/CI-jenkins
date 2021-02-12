@@ -7,6 +7,7 @@
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-tp-mvn</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <packaging>war</packaging>
 
   <name>my-tp-mvn</name>
   <!-- FIXME change it to the project's website -->
