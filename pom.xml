@@ -34,17 +34,11 @@
       
       <plugin>
     <artifactId>maven-war-plugin</artifactId>
+    <version>3.1.0</version>
     <configuration>
-        <attachClasses>true</attachClasses>
-        <webXml>target/web.xml</webXml>
-        <webResources>
-            <resource>
-                <directory>src/main/webapp</directory>
-                <filtering>true</filtering>
-            </resource>
-        </webResources>
+    <failOnMissingWebXml>false</failOnMissingWebXml>
     </configuration>
-</plugin>
+</plugin>  
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
